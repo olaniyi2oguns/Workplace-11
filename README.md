@@ -6,3 +6,6 @@
 
 **Architecture of the Solution**
 ![architecture](./image/Architecture.jpg)
+
+![architecture2](./image/Architecture2.jpg)
+
