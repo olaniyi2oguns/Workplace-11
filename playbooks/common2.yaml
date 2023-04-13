@@ -16,13 +16,13 @@
         state: started
         enabled: yes
 
-    - name: provisioning DB
-      host: db
-      remote_user: ubuntu
-      become: yes
-      become_user: root
-      tasks:
-       - name: Installing NTP on DB server
-         apt:
-          name: NTP
-          state: present    
+- name: provisioning DB
+  hosts: db
+  remote_user: ubuntu
+  become: yes
+  become_user: root
+  tasks:
+    - name: Installing NTP on DB server
+      apt:
+        name: NTP
+        state: present    
