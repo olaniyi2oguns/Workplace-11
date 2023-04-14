@@ -17,7 +17,7 @@ Make you use of the same server used for jenkins in [workplace-9](https://github
 
 check the version of your ansible with `sudo ansible --version`
 
-[version](./image/Ansible-version.jpg)
+![version](./image/Ansible-version.jpg)
 
 **Step 2:** Building a new job in jenkins
 
@@ -64,6 +64,11 @@ To confirm that you are now in the console of the new branch you created, look a
 
 ![git-branch](./image/branch-git.jpg)
 
+You can as well run command `git status` to know the branch you are in
+
+![status](./image/git-status.jpg)
+
+
 In the new branch you created, create the following directories:
 
 Playbooks 
@@ -74,6 +79,23 @@ Inside playbooks directory, create a playbook file called "common.yaml"
 
 Within inventory directory, create file for Development, staging, testing, and production environment as dev.yaml, staging.yaml, uat.yaml, and prod.yaml respectively
 
+**Step 5:** Setting up an Ansible inventory
 
+On your vsc, cd into your inventory and open the dev.yaml file. Paste in the 
+
+```
+[nfs]
+<NFS-Server-Private-IP-Address> ansible_ssh_user='ec2-user'
+
+[webservers]
+<Web-Server1-Private-IP-Address> ansible_ssh_user='ec2-user'
+<Web-Server2-Private-IP-Address> ansible_ssh_user='ec2-user'
+
+[db]
+<Database-Private-IP-Address> ansible_ssh_user='ubuntu' 
+
+[lb]
+<Load-Balancer-Private-IP-Address> ansible_ssh_user='ubuntu'
+```
 
 
