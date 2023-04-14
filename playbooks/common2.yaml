@@ -25,4 +25,4 @@
     - name: Installing NTP on DB server
       apt:
         name: NTP
-
+        state: present
