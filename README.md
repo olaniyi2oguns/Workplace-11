@@ -242,6 +242,9 @@ Our new architecture should looks like this:
 
 
 **CONGRATULATIONS**
-You have just automated your routine tasks by implementing your first Ansible project! There is more exciting projects ahead, so lets keep it moving!
+
+You have just automated your routine tasks by implementing your first Ansible project! 
+
+There is more exciting projects ahead, so lets keep it moving!
 
 ![great](./image/great-work.jpg)
