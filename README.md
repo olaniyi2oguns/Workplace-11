@@ -245,6 +245,6 @@ Our new architecture should looks like this:
 
 You have just automated your routine tasks by implementing your first Ansible project! 
 
-There is more exciting projects ahead, so lets keep it moving!
+Continue to visit my repo for more exiting projects!
 
 ![great](./image/great-work.jpg)
