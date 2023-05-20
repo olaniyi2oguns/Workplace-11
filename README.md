@@ -179,7 +179,7 @@ For example, if you save your instance key pair in your Downloads and the keypai
 
 NOTE: if you used different keypair for the different servers you will have to run the second command for each of the path of the keypairs.
 
-confirm that your has been successfully added by running command `ssh-add -l` and you should see the name of your keypair. Note: VSC terminal may not allow you to run these commands. 
+confirm that your keypair has been successfully added by running command `ssh-add -l` and you should see the name of your keypair. Note: VSC terminal may not allow you to run these commands. 
 
 Now, ssh into your Jenkins-Ansible server with this command:
 
