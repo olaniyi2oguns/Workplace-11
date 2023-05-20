@@ -215,7 +215,7 @@ click on remote development sign again and select the host you want to connect t
 
 ![host](./image/host.jpg)
 
-if you are successful you should see the new of the server you have connected to
+if you are successful you should see the name of the server you have connected to
 
 ![ssh](./image/ssh-windo-to-linux.jpg)
 
@@ -224,7 +224,7 @@ NOTE: if you are getting error, check yourconfiguration very well and try again.
 
 Now you can run your ansible playbook with command:
 
-`ansible-playbook - i /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/inventory/dev.yaml /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/common.yaml`
+`ansible-playbook -i /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/inventory/dev.yaml /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/common.yaml`
 
 If your configuration is okay you should have the type of output in the image below:
 
