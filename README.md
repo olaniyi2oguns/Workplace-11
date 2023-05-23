@@ -69,7 +69,7 @@ You can as well run command `git status` to know the branch you are in
 ![status](./image/git-status.jpg)
 
 
-In the new branch you created, create the following directories:
+In the new branch, create the following directories:
 
 Playbooks 
 
