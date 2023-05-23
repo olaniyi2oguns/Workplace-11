@@ -138,7 +138,7 @@ You can learn more on Ansible playbooks in this [video](https://youtu.be/ZAdJ7Cd
 
 **Step 7:** Update GIT with latest code
 
-Now that you have written your first play, and your inventory is ready, it is necessary to merge your changes to the main branch as your playbook is still on the branch repository on git. To do this, first confirm the branch you are working on by running command `git status`. Once you have confirmed that you are actually working on the Ansible-jenkins branch, run the following commands:
+Now that you have written your first play, and your inventory is ready, it is necessary to merge your changes to the main branch as your playbook is still on the branch repository on git. To do this, first confirm the branch you are working on by running command `git status` again. Once you have confirmed that you are actually working on the Ansible-jenkins branch, run the following commands:
 
 `git add .`
 
@@ -158,7 +158,7 @@ Then, merge the code to the main branch.
 
 Go back to your vsc terminal and change to main branch by running command 
 
-`git checkout main` and check the `git status` to ensure that you are in the main branch.
+`git checkout main` and check the `git status` once more to ensure that you are in the main branch.
 
 Pull your merged code to your repo by running command `git pull`
 
