@@ -224,7 +224,7 @@ NOTE: if you are getting error, check yourconfiguration very well and try again.
 
 Now you can run your ansible playbook with command:
 
-`ansible-playbook -i /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/inventory/dev.yaml /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/common.yaml`
+`ansible-playbook -i /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/inventory/dev.yaml /var/lib/jenkins/jobs/<name-of-job>/builds/<build-number>/archive/playbooks/common.yaml`
 
 If your configuration is okay you should have the type of output in the image below:
 
